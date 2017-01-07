@@ -1,0 +1,23 @@
+{
+	"name": "umasssems-backend",
+	"version": "0.0.0",
+	"description": "A backend for the UMass EMS website",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^5.0.0-alpha.2",
+		"request": "^2.75.0",
+		"redis": "^2.6.2"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
